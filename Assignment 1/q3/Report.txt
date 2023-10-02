@@ -1,0 +1,5 @@
+Q1. Start your TCP client application without the TCP server running. What happens? Why?
+Ans. The connect(...) function in CalcClientTCP.cpp gives error. We are able to create a socket and bind it to a local port. But, since the server is not running, there is no listener on the server's side to accept the incoming connection. To handle the exception, we exit from the program with exit(EXIT_FAILURE). 
+
+Q2. Start your UDP client application without the UDP server running. What happens? Why?
+Ans. Starting a UDP client without the corresponding UDP server running can result in data being sent into the network with no immediate error, but the data will not be processed or acknowledged by the server. In UDP, a connection does not exist between client and server, unlike TCP. The client's send operation does not wait for a response or acknowledgment from the server.
