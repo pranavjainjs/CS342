@@ -6,7 +6,7 @@ This Chat Application, developed in C++, provides a seamless and efficient platf
 - Multiple Simultaneous Users: Support for numerous users, ensuring concurrent connections without compromising performance.
 - Broadcasting: Allows users to broadcast messages to all connected users, facilitating group discussions.
 - Private Messaging: Enables private, one-on-one conversations between users, ensuring privacy and security.
-- raceful Exit: Provides users with a simple and intuitive way to exit the application gracefully, maintaining smooth user experience.
+- Graceful Exit: Provides users with a simple and intuitive way to exit the application gracefully, maintaining smooth user experience.
 
 ## Implementation Details:
 - Network Communication: Implemented using TCP sockets, ensuring reliable and secure data transmission.
